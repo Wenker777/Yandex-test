@@ -1,0 +1,269 @@
+.support__content {
+	margin: 107px 0 200px 0;
+}
+
+.support__upper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 64px;
+}
+
+.container {}
+
+.support__upper-text {
+	max-width: 63%;
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 135%;
+	text-transform: uppercase;
+	color: #313131;
+	margin-right: 15px;
+
+}
+
+.support__upper-text p {
+	display: inline;
+}
+
+.support__upper-text p:last-child span {
+	font-weight: 700;
+	color: #f54932;
+}
+
+.support__upper-image-mobile {
+	display: none;
+}
+
+.support__upper-image {
+	width: 394px;
+	height: 250px;
+}
+
+.support__upper-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.support__under {
+	display: flex;
+	align-items: flex-start;
+	overflow: visible;
+}
+
+.support__under-image {
+	width: 609px;
+	min-width: 335px;
+	margin: -27px 17px 0 -24px;
+}
+
+.support__under-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+
+.support__under-info {}
+
+.support__under-text {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 135%;
+	text-transform: uppercase;
+	color: #313131;
+	max-width: 800px;
+	margin-bottom: 60px;
+}
+
+.support__under-text_red {
+	font-weight: 700;
+	color: #f54932;
+}
+
+.support__table {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 49px;
+}
+
+
+.support__field {
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid #d0d0d0;
+}
+
+.support__field:last-child {
+	border: none;
+}
+
+
+.support__title {
+	opacity: 0.7;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 20px;
+	color: #313131;
+	width: 43.5%;
+	min-width: 188px;
+	border-right: 2px solid #d0d0d0;
+	padding: 16px 16px 16px 0;
+	height: 100%;
+}
+
+.support__title_first {
+	line-height: 100%;
+}
+
+.support__value {
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 20px;
+	/* line-height: 56px; */
+	color: #313131;
+	padding: 0 0 0px 16px;
+}
+
+.support__value_first {
+	line-height: 100%;
+}
+
+.support__value_crossed {
+	text-decoration: line-through solid #f54932 2px;
+}
+
+.support__under-link a {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 120%;
+	color: #3057a2;
+}
+
+@media (max-width: 992px) {
+	.support__table {
+		margin-bottom: 40px;
+	}
+
+	.support__field {
+		display: block;
+		border-bottom: 2px solid #d0d0d0;
+	}
+
+	.support__title {
+		opacity: 0.7;
+		font-family: var(--font-family);
+		font-weight: 400;
+		font-size: 20px;
+		color: #313131;
+		width: 100%;
+		border-right: none;
+		padding: 0;
+		margin: 16px 0 12px 0;
+	}
+
+	.support__title_change-first {
+		display: inline-block;
+		min-width: 0px;
+		width: fit-content;
+		margin-right: 12px;
+	}
+
+	.support__title_first {
+		line-height: 100%;
+	}
+
+	.support__value {
+		display: inline-block;
+		font-family: var(--font-family);
+		font-weight: 600;
+		font-size: 20px;
+		color: #313131;
+		padding: 0 0 0px 0px;
+		margin: 0 0 16px 0;
+
+	}
+
+	.support__value_crossed {
+		text-decoration: line-through solid #f54932 2px;
+	}
+
+}
+
+@media (max-width: 721px) {
+	.support__upper-image-mobile {
+		display: block;
+		width: 336px;
+		height: auto;
+		margin: 24px 0;
+	}
+
+	.support__upper-image-mobile img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.support__content {
+		margin: 48px 0 120px 0;
+	}
+
+	.support__upper {
+		display: block;
+		margin-bottom: 34px;
+	}
+
+
+	.support__upper-text {
+		display: block;
+		max-width: 700px;
+		font-weight: 400;
+		font-size: 28px;
+	}
+
+	.support__under {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		overflow: visible;
+	}
+
+	.support__under-image {
+		width: 335px;
+		min-width: none;
+		margin: 0 0px 24px -22px;
+	}
+
+	.support__under-text {
+		margin-bottom: 28px;
+		font-size: 28px;
+	}
+
+	.support__title_change-first {
+		display: inline-block;
+		min-width: 0px;
+		width: fit-content;
+		margin-right: 12px;
+	}
+
+	.support__value {
+		display: inline-block;
+		padding: 0 0 0px 0px;
+		margin: 0 0 16px 0;
+	}
+
+	.support__value_crossed {
+		text-decoration: line-through solid #f54932 2px;
+	}
+
+	.support__under-link a {
+		font-size: 18px;
+	}
+}
